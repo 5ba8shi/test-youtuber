@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
     <link href="/css/after-login.css" rel="stylesheet">
+  <!-- JS -->
+    <link rel="stylesheet" type="text/js" href="js/index.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="{{ asset('/js/main.js') }}"></script> 
   </head>
   <body>
     @yield('content')
